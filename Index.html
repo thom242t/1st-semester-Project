@@ -9,6 +9,27 @@
     <title>Document</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <style>
+        .zoom {
+            transition: transform .9s;
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(1.5);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <script src="js/js.js"></script>
+    <h1>Space is 
+      <span
+         class="txt-rotate"
+         data-period="2000"
+         data-rotate='[ "fun!", "cool!", "unknown...", "beautiful!", "yours to explore!" ]'></span>
+    </h1>
 
 </head>
 
@@ -19,43 +40,78 @@
     <div id="stars3"></div>
 
     <div id="planets">
-       
-        <div id="mercury">
-            <img src="IMG/Mecury.svg" alt="mercury">
+
+        <div id="mercury" class="zoom">
             <span>Mercury</span>
+            <img src="IMG/Mecury.svg" alt="mercury">
+            <p id="text_mercury">This is just a test im not writing anything special you shouldnt be reading this but if you are
+                good job but im sure we are gonna find content for here later.
+            </p>
         </div>
-        <div id="venus">
+        <div id="venus" class="zoom">
             <img src="IMG/Venus.svg" alt="venus">
             <span>Venus</span>
+            <p id="text_venus">
+                Here i will ad more text about different planets but actually when i think about it i might not
+                because i might feel to lazy to do it idk i will come back to this later.
+            </p>
         </div>
-        <div id="earth">
+        <div id="earth" class="zoom">
             <img src="IMG/Earth.svg" alt="earth">
             <span>Earth</span>
+            <p id="text_earth">
+                Lets write a little something about earth like the fact that its flat or is it im not sure in
+                life because it doesnt make sence to be on this fucking planet driving cars.
+            </p>
         </div>
-        <div id="mars">
+        <div id="mars" class="zoom">
             <img src="IMG/Mars.svg" alt="mars">
             <span>Mars</span>
+            <p id="text_mars">
+                One of the reddest red reddish red planets out there in the whole fucking universe like
+                einstein and other great geniuses i know they are not supposed to be here.
+            </p>
         </div>
-        <div id="jupiter">
+        <div id="jupiter" class="zoom">
             <img src="img/Jupitar.svg" alt="jupiter">
             <span>Jupiter</span>
+            <p id="text_jupiter">
+                And although its hard to be a pilot because of all the air that you fly through
+                because fucking internet connection and wifi and nothing is free young man.
+            </p>
         </div>
-        <div id="saturn">
+        <div id="saturn" class="zoom">
             <img src="img/Saturn.svg" alt="saturn">
             <span>Saturn</span>
+            <p id="text_saturn">
+                My fingers hurt from writing so much shit im tired im hungry and i wanna go to sleep.
+                Thomas i think i deserve a cookie plsplspls.
+            </p>
         </div>
-        <div id="uranus">
+        <div id="uranus" class="zoom">
             <img src="img/Uranus.svg" alt="uranus">
             <span>Uranus</span>
+            <p id="text_uranus">
+                Nothing is more important than writing and if you can write as much as you possible
+                could you would achieve amazing things and have a ninja sword and fight dragons with it.
+            </p>
         </div>
-        <div id="neptune">
+        <div id="neptune" class="zoom">
             <img src="img/Neptune.svg" alt="neptune">
             <span>Neptune</span>
+            <p id="text_neptune">
+                Writing about neptune isnt hard because no content has to be actually written how
+                cool is that a? That is my opinion and it doesnt matter because life is pointless.
+            </p>
         </div>
-        <div id="sun">
-                <img src="img/sun.svg" alt="sun">
-                <span>Sun</span>
-            </div>
+        <div id="sun" class="zoom">
+            <img src="img/sun.svg" alt="sun">
+            <!-- <span>Sun</span> -->
+            <p id="text_sun">
+                Randomly generated words are doing great so far so I am planing to continue to use
+                them in such astonishing and useful way so that they contribute to our work.
+            </p>
+        </div>
 
 
     </div>
@@ -64,6 +120,8 @@
 
         </nav>
     </header>
+    <main>
+    </main>
 
 </body>
 

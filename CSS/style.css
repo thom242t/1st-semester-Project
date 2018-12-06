@@ -78,59 +78,57 @@ html {
 #mercury {
   position: relative;
   width: 50px;
-  top: 50vh;
-  left: 18vw;
-  display: inline-block;
-  border-bottom: 1px dotted black; }
+  top: 42vh;
+  left: 18vw; }
 
 #venus {
   position: relative;
   width: 60px;
-  top: 32vh;
+  top: 48vh;
   left: 25vw; }
 
 #earth {
   position: relative;
   width: 64px;
-  top: 37vh;
+  top: 20vh;
   left: 34vw; }
 
 #mars {
   position: relative;
   width: 40px;
-  top: 11vh;
+  top: 21vh;
   left: 43vw; }
 
 #jupiter {
   height: auto;
   position: relative;
   width: 150px;
-  top: 4vh;
-  left: 49vw; }
+  top: 13vh;
+  left: 50vw; }
 
 #saturn {
   position: relative;
   width: 120px;
-  top: 3vh;
+  top: -17vh;
   left: 64vw; }
 
 #uranus {
   position: relative;
   width: 60px;
-  top: -23vh;
+  top: -12vh;
   left: 78vw; }
 
 #neptune {
   position: relative;
-  width: 40px;
-  top: -48vh;
-  left: 87vw; }
+  width: 68px;
+  top: -33vh;
+  left: 88vw; }
 
 #sun {
-  position: relative;
+  position: absolute;
   width: 500px;
-  top: -62vh;
-  left: -22vw; }
+  bottom: 11vh;
+  right: 90vw; }
 
 #mercury span {
   visibility: hidden;
@@ -329,5 +327,126 @@ html {
 #sun:hover span {
   visibility: visible;
   opacity: 1; }
+
+#mercury #text_mercury {
+  position: absolute;
+  width: 250px;
+  top: 20vh;
+  left: 14vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#mercury:hover #text_mercury {
+  visibility: visible; }
+
+#venus #text_venus {
+  position: absolute;
+  width: 250px;
+  top: 12vh;
+  left: 10vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#venus:hover #text_venus {
+  visibility: visible; }
+
+#earth #text_earth {
+  position: absolute;
+  width: 250px;
+  top: 22vh;
+  left: 5vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#earth:hover #text_earth {
+  visibility: visible; }
+
+#mars #text_mars {
+  position: absolute;
+  width: 250px;
+  top: 17vh;
+  left: -2vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#mars:hover #text_mars {
+  visibility: visible; }
+
+#jupiter #text_jupiter {
+  position: absolute;
+  width: 250px;
+  top: 21vh;
+  left: -5vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#jupiter:hover #text_jupiter {
+  visibility: visible; }
+
+#saturn #text_saturn {
+  position: absolute;
+  width: 250px;
+  top: 27vh;
+  left: -15vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#saturn:hover #text_saturn {
+  visibility: visible; }
+
+#uranus #text_uranus {
+  position: absolute;
+  width: 250px;
+  top: 13vh;
+  left: -26vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#uranus:hover #text_uranus {
+  visibility: visible; }
+
+#neptune #text_neptune {
+  position: absolute;
+  width: 250px;
+  top: 20vh;
+  left: -32vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#neptune:hover #text_neptune {
+  visibility: visible; }
+
+#sun #text_sun {
+  position: absolute;
+  width: 250px;
+  top: 47vh;
+  left: 51vw;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif; }
+
+#sun:hover #text_sun {
+  visibility: visible; }
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0.4em 0; }
+
+h1 {
+  position: absolute;
+  font-size: 3.5em;
+  color: white;
+  top: auto;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 37vw;
+  margin-top: 10vh; }
 
 /*# sourceMappingURL=style.css.map */
