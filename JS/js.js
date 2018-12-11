@@ -1,4 +1,4 @@
-// MAIN HEADER
+// HEADER TYPING 
 
 var TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;

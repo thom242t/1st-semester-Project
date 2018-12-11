@@ -1,3 +1,7 @@
+  body { 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 //----------------------------------------------------------------------> BACKGROUND 
   @keyframes animStar {
     from {
@@ -70,61 +74,58 @@
 
 
   #mercury {
-    position: relative;
+    position: absolute;
     width: 50px;
-    top: 42vh;
-    left: 18vw;
+    top: 60%;
+    left: 15%;
   }
   #venus {
-    position: relative;
+    position: absolute;
     width: 60px;
-    top: 48vh;
-    left: 25vw;
-
+    top: 18%;
+    left: 19%;
   }
   #earth {
-    position: relative;
+    position: absolute;
     width: 64px;
-    top: 20vh;
-    left: 34vw;
+    top: 70%;
+    left: 31%;
   }
   #mars {
-    position: relative;
+    position: absolute;
     width: 40px;
-    top: 32vh;
-    left: 41vw;
-
+    top: 37%;
+    left: 37%;
   }
   #jupiter {
-    height: auto;
-    position: relative;
+    position: absolute;
     width: 150px;
-    top: 8vh;
-    left: 50vw;
+    top: 39%;
+    left: 50%;
   }
   #saturn {
-    position: relative;
+    position: absolute;
     width: 120px;
-    top: -17vh;
-    left: 64vw;
+    top: 67%;
+    left: 68%;
   }
   #uranus {
-    position: relative;
+    position: absolute;
     width: 60px;
-    top: -12vh;
-    left: 78vw;
+    top: 13%;
+    left: 76%;
   }
   #neptune {
-    position: relative;
+    position: absolute;
     width: 68px;
-    top: -33vh;
-    left: 88vw;
+    top: 47%;
+    left: 84%;
   }
   #sun {
     position: absolute;
     width: 500px;
-    bottom: 11vh;
-    right: 90vw;
+    top: 15%;
+    left: -24%;
   }
 
 
@@ -369,23 +370,13 @@
     border-radius: 6px;
     position: absolute;
     z-index: 1;
-    bottom: 80%;
-    left: 110%;
+    bottom: 24%;
+    left: 106%;
     margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
     opacity: 0;
     transition: opacity 0.3s;
   }
+
   #sun:hover span {
     visibility: visible;
     opacity: 1;
@@ -396,144 +387,172 @@
 // MERCURY
   #mercury #text_mercury {
     position: absolute;
-    width: 308px;
-    top: 270%;
-    left: -250%;
+    width: 250px;
+    top: 97%;
+    left: -200%;
     visibility: hidden;
     color: #ffffff;
     font-family: 'Open Sans' ,sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   
   #mercury:hover #text_mercury {
     visibility: visible;
+    opacity: 1;
   }
 
   // VENUS
   #venus #text_venus {
     position: absolute;
-    width: 364px;
-    top: 123%;
-    left: -240%;
+    width: 250px;
+    top: 90%;
+    left: -155%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open sans", sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #venus:hover #text_venus {
     visibility: visible;
+    opacity: 1;
   }
 
   // EARTH 
   #earth #text_earth {
     position: absolute;
-    width: 350px;
-    top: 282%;
-    left: -240%;
+    width: 500px;
+    top: 95%;
+    left: -335%;
     text-align: center;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #earth:hover #text_earth {
     visibility: visible;
+    opacity: 1;
   }
 
   // MARS
   #mars #text_mars {
     position: absolute;
-    width: 300px;
-    top: 130%;
-    left: -315%;
+    width: 250px;
+    top: 70%;
+    left: -279%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #mars:hover #text_mars {
     visibility: visible;
+    opacity: 1;
   }
 
   // JUPITER
   #jupiter #text_jupiter {
     position: absolute;
-    width: 290px;
-    top: 107%;
-    left: -45%;
+    width: 250px;
+    top: 100%;
+    left: -36%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 8pt;
     text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #jupiter:hover #text_jupiter {
     visibility: visible;
+    opacity: 1;
   }
 
   // SATURN
   #saturn #text_saturn {
     position: absolute;
-    width: 350px;
-    top: 210%;
-    left: -95%;
+    width: 550px;
+    top: 72px;
+    left: -180%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #saturn:hover #text_saturn {
     visibility: visible;
+    opacity: 1;
   }
 
   // URANUS
   #uranus #text_uranus {
     position: absolute;
     width: 250px;
-    top: 125%;
+    top: 90%;
     left: -145%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #uranus:hover #text_uranus {
     visibility: visible;
+    opacity: 1;
   }
 
   // NEPTUNE  
   #neptune #text_neptune {
     position: absolute;
-    width: 350px;
-    top: 200%;
-    left: -340%;
+    width: 220px;
+    top: 100%;
+    left: -105%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 8pt;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #neptune:hover #text_neptune {
     visibility: visible;
+    opacity: 1;
   }
   // SUN
   #sun #text_sun {
     position: absolute;
-    width: 400px;
-    top: 47vh;
-    left: 51vw;
+    width: 600px;
+    top: 80%;
+    left: 87%;
     visibility: hidden;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 8pt;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
   }
   #sun:hover #text_sun {
     visibility: visible;
+    opacity: 1;
   }
   // ----------------------------------------------------------------->HEADER
 
@@ -544,7 +563,8 @@
     top: auto;
     font-family: "Death Star";
     font-weight: 200;
-    margin: 2.0em 0em -3.0em 12em;
+    margin: 1em 0em em 0em;
+    left: 36%;
   }
 
   // --------------------------------------------------------------->LOADING SCREEN

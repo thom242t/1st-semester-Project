@@ -1,3 +1,7 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 @keyframes animStar {
   from {
     transform: translateY(0px); }
@@ -57,59 +61,58 @@ html {
   box-shadow: 975px 1722px #FFF , 104px 1610px #FFF , 1420px 1626px #FFF , 838px 1969px #FFF , 414px 717px #FFF , 163px 249px #FFF , 292px 885px #FFF , 1715px 1928px #FFF , 992px 1847px #FFF , 750px 406px #FFF , 1252px 503px #FFF , 1630px 1526px #FFF , 964px 8px #FFF , 856px 117px #FFF , 1809px 123px #FFF , 1109px 875px #FFF , 356px 985px #FFF , 1620px 446px #FFF , 825px 1920px #FFF , 475px 1760px #FFF , 530px 1102px #FFF , 886px 1380px #FFF , 1026px 952px #FFF , 216px 909px #FFF , 1594px 840px #FFF , 24px 1336px #FFF , 1635px 154px #FFF , 1284px 1781px #FFF , 1001px 1304px #FFF , 1219px 1888px #FFF , 1028px 1722px #FFF , 479px 293px #FFF , 1647px 1504px #FFF , 60px 1144px #FFF , 21px 209px #FFF , 341px 209px #FFF , 121px 948px #FFF , 781px 1878px #FFF , 1605px 73px #FFF , 1433px 1551px #FFF , 683px 686px #FFF , 1857px 1138px #FFF , 1303px 1531px #FFF , 50px 1669px #FFF , 1494px 1760px #FFF , 1089px 1192px #FFF , 1099px 1186px #FFF , 1393px 1871px #FFF , 1092px 1761px #FFF , 1793px 1547px #FFF , 831px 1460px #FFF , 1221px 1070px #FFF , 1649px 1368px #FFF , 1579px 1466px #FFF , 188px 1069px #FFF , 455px 571px #FFF , 484px 510px #FFF , 1453px 139px #FFF , 953px 1588px #FFF , 486px 479px #FFF , 603px 314px #FFF , 50px 365px #FFF , 1583px 246px #FFF , 89px 843px #FFF , 1949px 332px #FFF , 1356px 105px #FFF , 1711px 337px #FFF , 1163px 29px #FFF , 1586px 1905px #FFF , 667px 211px #FFF , 576px 649px #FFF , 1676px 955px #FFF , 619px 3px #FFF , 1991px 53px #FFF , 36px 1951px #FFF; }
 
 #mercury {
-  position: relative;
+  position: absolute;
   width: 50px;
-  top: 42vh;
-  left: 18vw; }
+  top: 60%;
+  left: 15%; }
 
 #venus {
-  position: relative;
+  position: absolute;
   width: 60px;
-  top: 48vh;
-  left: 25vw; }
+  top: 18%;
+  left: 19%; }
 
 #earth {
-  position: relative;
+  position: absolute;
   width: 64px;
-  top: 20vh;
-  left: 34vw; }
+  top: 70%;
+  left: 31%; }
 
 #mars {
-  position: relative;
+  position: absolute;
   width: 40px;
-  top: 32vh;
-  left: 41vw; }
+  top: 37%;
+  left: 37%; }
 
 #jupiter {
-  height: auto;
-  position: relative;
+  position: absolute;
   width: 150px;
-  top: 8vh;
-  left: 50vw; }
+  top: 39%;
+  left: 50%; }
 
 #saturn {
-  position: relative;
+  position: absolute;
   width: 120px;
-  top: -17vh;
-  left: 64vw; }
+  top: 67%;
+  left: 68%; }
 
 #uranus {
-  position: relative;
+  position: absolute;
   width: 60px;
-  top: -12vh;
-  left: 78vw; }
+  top: 13%;
+  left: 76%; }
 
 #neptune {
-  position: relative;
+  position: absolute;
   width: 68px;
-  top: -33vh;
-  left: 88vw; }
+  top: 47%;
+  left: 84%; }
 
 #sun {
   position: absolute;
   width: 500px;
-  bottom: 11vh;
-  right: 90vw; }
+  top: 15%;
+  left: -24%; }
 
 #mercury span {
   visibility: hidden;
@@ -306,18 +309,9 @@ html {
   border-radius: 6px;
   position: absolute;
   z-index: 1;
-  bottom: 80%;
-  left: 110%;
+  bottom: 24%;
+  left: 106%;
   margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
 
@@ -327,128 +321,156 @@ html {
 
 #mercury #text_mercury {
   position: absolute;
-  width: 308px;
-  top: 270%;
-  left: -250%;
+  width: 250px;
+  top: 97%;
+  left: -200%;
   visibility: hidden;
   color: #ffffff;
   font-family: 'Open Sans' ,sans-serif;
   text-align: center;
-  font-size: 8pt; }
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #mercury:hover #text_mercury {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 #venus #text_venus {
   position: absolute;
-  width: 364px;
-  top: 123%;
-  left: -240%;
+  width: 250px;
+  top: 90%;
+  left: -155%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open sans", sans-serif;
   text-align: center;
-  font-size: 8pt; }
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #venus:hover #text_venus {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 #earth #text_earth {
   position: absolute;
-  width: 350px;
-  top: 282%;
-  left: -240%;
+  width: 500px;
+  top: 95%;
+  left: -335%;
   text-align: center;
-  visibility: hidden;
-  color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 8pt; }
-
-#earth:hover #text_earth {
-  visibility: visible; }
-
-#mars #text_mars {
-  position: absolute;
-  width: 300px;
-  top: 130%;
-  left: -315%;
-  visibility: hidden;
-  color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 8pt; }
-
-#mars:hover #text_mars {
-  visibility: visible; }
-
-#jupiter #text_jupiter {
-  position: absolute;
-  width: 290px;
-  top: 107%;
-  left: -45%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 8pt;
-  text-align: center; }
+  opacity: 0;
+  transition: opacity 1s; }
 
-#jupiter:hover #text_jupiter {
-  visibility: visible; }
+#earth:hover #text_earth {
+  visibility: visible;
+  opacity: 1; }
 
-#saturn #text_saturn {
+#mars #text_mars {
   position: absolute;
-  width: 350px;
-  top: 210%;
-  left: -95%;
+  width: 250px;
+  top: 70%;
+  left: -279%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt; }
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
+
+#mars:hover #text_mars {
+  visibility: visible;
+  opacity: 1; }
+
+#jupiter #text_jupiter {
+  position: absolute;
+  width: 250px;
+  top: 100%;
+  left: -36%;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8pt;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s; }
+
+#jupiter:hover #text_jupiter {
+  visibility: visible;
+  opacity: 1; }
+
+#saturn #text_saturn {
+  position: absolute;
+  width: 550px;
+  top: 72px;
+  left: -180%;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #saturn:hover #text_saturn {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 #uranus #text_uranus {
   position: absolute;
   width: 250px;
-  top: 125%;
+  top: 90%;
   left: -145%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt; }
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #uranus:hover #text_uranus {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 #neptune #text_neptune {
   position: absolute;
-  width: 350px;
-  top: 200%;
-  left: -340%;
+  width: 220px;
+  top: 100%;
+  left: -105%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt; }
+  font-size: 8pt;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #neptune:hover #text_neptune {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 #sun #text_sun {
   position: absolute;
-  width: 400px;
-  top: 47vh;
-  left: 51vw;
+  width: 600px;
+  top: 80%;
+  left: 87%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-size: 8pt; }
+  font-size: 8pt;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s; }
 
 #sun:hover #text_sun {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 1; }
 
 h1 {
   position: relative;
@@ -457,7 +479,8 @@ h1 {
   top: auto;
   font-family: "Death Star";
   font-weight: 200;
-  margin: 2.0em 0em -3.0em 12em; }
+  margin: 1em 0em em 0em;
+  left: 36%; }
 
 @keyframes spin {
   from {
