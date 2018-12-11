@@ -1,5 +1,13 @@
 //----------------------------------------------------------------------> BACKGROUND 
-html {
+  @keyframes animStar {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-2000px);
+    }
+  }
+  html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
@@ -10,7 +18,7 @@ html {
     height: 1px;
     background: transparent;
     box-shadow:813px 610px #FFF , 284px 245px #FFF , 1716px 1481px #FFF , 1181px 1294px #FFF , 1384px 1104px #FFF , 625px 1445px #FFF , 1845px 556px #FFF , 208px 785px #FFF , 681px 1920px #FFF , 1636px 288px #FFF , 429px 756px #FFF , 246px 728px #FFF , 368px 560px #FFF , 139px 1154px #FFF , 711px 688px #FFF , 246px 939px #FFF , 1695px 1822px #FFF , 230px 776px #FFF , 1296px 1678px #FFF , 418px 1299px #FFF , 855px 501px #FFF , 4px 1928px #FFF , 1838px 1874px #FFF , 1170px 1449px #FFF , 507px 1888px #FFF , 873px 1901px #FFF , 604px 994px #FFF , 29px 1051px #FFF , 156px 1444px #FFF , 1641px 719px #FFF , 528px 1613px #FFF , 708px 1988px #FFF , 653px 1895px #FFF , 110px 1247px #FFF , 163px 908px #FFF , 1292px 156px #FFF , 1966px 1748px #FFF , 164px 1872px #FFF , 1764px 781px #FFF , 929px 1895px #FFF , 851px 493px #FFF , 864px 1792px #FFF , 135px 1559px #FFF , 1467px 1851px #FFF , 638px 1020px #FFF , 906px 1385px #FFF , 685px 1198px #FFF , 1465px 1071px #FFF , 1439px 1247px #FFF , 1753px 181px #FFF , 523px 740px #FFF , 1524px 1759px #FFF , 309px 443px #FFF , 829px 52px #FFF , 622px 598px #FFF , 1431px 555px #FFF , 331px 1129px #FFF , 1780px 369px #FFF , 936px 869px #FFF , 1425px 698px #FFF , 1717px 517px #FFF , 1369px 1751px #FFF , 532px 1068px #FFF , 1634px 446px #FFF , 1154px 1206px #FFF , 1136px 1578px #FFF , 478px 1331px #FFF , 1200px 1834px #FFF , 1862px 84px #FFF , 1601px 570px #FFF , 28px 1915px #FFF , 825px 65px #FFF , 127px 304px #FFF , 1425px 1012px #FFF , 1080px 1308px #FFF , 1098px 141px #FFF , 1916px 1107px #FFF , 1719px 1240px #FFF , 899px 826px #FFF , 1054px 252px #FFF , 1387px 1691px #FFF , 659px 59px #FFF , 1472px 1397px #FFF , 1293px 49px #FFF , 1582px 1114px #FFF , 879px 565px #FFF , 44px 1640px #FFF , 626px 1883px #FFF , 1114px 877px #FFF , 1896px 170px #FFF , 1088px 1879px #FFF , 917px 861px #FFF , 1815px 965px #FFF , 814px 704px #FFF , 1055px 1514px #FFF , 516px 367px #FFF , 1512px 149px #FFF , 990px 453px #FFF , 1781px 981px #FFF , 1190px 616px #FFF , 207px 1257px #FFF , 1647px 1490px #FFF , 1591px 328px #FFF , 838px 1332px #FFF , 135px 720px #FFF , 256px 303px #FFF , 366px 1524px #FFF , 628px 1075px #FFF , 77px 267px #FFF , 1402px 1819px #FFF , 66px 1293px #FFF , 1837px 307px #FFF , 393px 1838px #FFF , 61px 1217px #FFF , 1104px 1805px #FFF , 229px 865px #FFF , 160px 453px #FFF , 593px 1774px #FFF , 79px 1131px #FFF , 1015px 306px #FFF , 892px 1948px #FFF , 221px 636px #FFF , 1436px 1274px #FFF , 299px 1564px #FFF , 1416px 1618px #FFF , 1078px 1050px #FFF , 783px 1082px #FFF , 283px 1764px #FFF , 643px 1265px #FFF , 1099px 1201px #FFF , 635px 1058px #FFF , 1221px 328px #FFF , 1490px 1998px #FFF , 919px 1969px #FFF , 1154px 1555px #FFF , 1539px 1885px #FFF , 38px 1368px #FFF , 497px 222px #FFF , 1524px 140px #FFF , 1526px 333px #FFF , 1810px 1267px #FFF , 263px 1745px #FFF , 933px 1488px #FFF , 167px 758px #FFF , 1436px 222px #FFF , 813px 642px #FFF , 723px 1504px #FFF , 1571px 981px #FFF , 521px 841px #FFF , 55px 214px #FFF , 1344px 81px #FFF , 849px 1338px #FFF , 1961px 1526px #FFF , 40px 829px #FFF , 1829px 363px #FFF , 1608px 493px #FFF , 707px 1256px #FFF , 1661px 374px #FFF , 1324px 1923px #FFF , 1345px 806px #FFF ;
-    animation: animStar 50s linear infinite;
+    animation: animStar 150s linear infinite;
   }
   #stars:after {
     content: " ";
@@ -44,7 +52,7 @@ html {
     height: 3px;
     background: transparent;
     box-shadow: 975px 1722px #FFF , 104px 1610px #FFF , 1420px 1626px #FFF , 838px 1969px #FFF , 414px 717px #FFF , 163px 249px #FFF , 292px 885px #FFF , 1715px 1928px #FFF , 992px 1847px #FFF , 750px 406px #FFF , 1252px 503px #FFF , 1630px 1526px #FFF , 964px 8px #FFF , 856px 117px #FFF , 1809px 123px #FFF , 1109px 875px #FFF , 356px 985px #FFF , 1620px 446px #FFF , 825px 1920px #FFF , 475px 1760px #FFF , 530px 1102px #FFF , 886px 1380px #FFF , 1026px 952px #FFF , 216px 909px #FFF , 1594px 840px #FFF , 24px 1336px #FFF , 1635px 154px #FFF , 1284px 1781px #FFF , 1001px 1304px #FFF , 1219px 1888px #FFF , 1028px 1722px #FFF , 479px 293px #FFF , 1647px 1504px #FFF , 60px 1144px #FFF , 21px 209px #FFF , 341px 209px #FFF , 121px 948px #FFF , 781px 1878px #FFF , 1605px 73px #FFF , 1433px 1551px #FFF , 683px 686px #FFF , 1857px 1138px #FFF , 1303px 1531px #FFF;
-    animation: animStar 150s linear infinite;
+    animation: animStar 50s linear infinite;
   }
   #stars3:after {
     content: " ";
@@ -55,35 +63,7 @@ html {
     background: transparent;
     box-shadow: 975px 1722px #FFF , 104px 1610px #FFF , 1420px 1626px #FFF , 838px 1969px #FFF , 414px 717px #FFF , 163px 249px #FFF , 292px 885px #FFF , 1715px 1928px #FFF , 992px 1847px #FFF , 750px 406px #FFF , 1252px 503px #FFF , 1630px 1526px #FFF , 964px 8px #FFF , 856px 117px #FFF , 1809px 123px #FFF , 1109px 875px #FFF , 356px 985px #FFF , 1620px 446px #FFF , 825px 1920px #FFF , 475px 1760px #FFF , 530px 1102px #FFF , 886px 1380px #FFF , 1026px 952px #FFF , 216px 909px #FFF , 1594px 840px #FFF , 24px 1336px #FFF , 1635px 154px #FFF , 1284px 1781px #FFF , 1001px 1304px #FFF , 1219px 1888px #FFF , 1028px 1722px #FFF , 479px 293px #FFF , 1647px 1504px #FFF , 60px 1144px #FFF , 21px 209px #FFF , 341px 209px #FFF , 121px 948px #FFF , 781px 1878px #FFF , 1605px 73px #FFF , 1433px 1551px #FFF , 683px 686px #FFF , 1857px 1138px #FFF , 1303px 1531px #FFF , 50px 1669px #FFF , 1494px 1760px #FFF , 1089px 1192px #FFF , 1099px 1186px #FFF , 1393px 1871px #FFF , 1092px 1761px #FFF , 1793px 1547px #FFF , 831px 1460px #FFF , 1221px 1070px #FFF , 1649px 1368px #FFF , 1579px 1466px #FFF , 188px 1069px #FFF , 455px 571px #FFF , 484px 510px #FFF , 1453px 139px #FFF , 953px 1588px #FFF , 486px 479px #FFF , 603px 314px #FFF , 50px 365px #FFF , 1583px 246px #FFF , 89px 843px #FFF , 1949px 332px #FFF , 1356px 105px #FFF , 1711px 337px #FFF , 1163px 29px #FFF , 1586px 1905px #FFF , 667px 211px #FFF , 576px 649px #FFF , 1676px 955px #FFF , 619px 3px #FFF , 1991px 53px #FFF , 36px 1951px #FFF;
   }
-  
-  #title {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
-  }
-  #title span {
-    background: -webkit-linear-gradient(white, #38495a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  @keyframes animStar {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-2000px);
-    }
-  }
+
 
 
   //  -------------------------------------------------------------------------->PLANETS
@@ -161,6 +141,7 @@ html {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
+    font-family: "Death Star";
 
     /* Position the tooltip text */
     position: absolute;
@@ -181,6 +162,7 @@ html {
 
   // VENUS
   #venus span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -208,6 +190,7 @@ html {
 
   // EARTH
   #earth span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -235,6 +218,7 @@ html {
 
   // MARS
   #mars span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -262,6 +246,7 @@ html {
 
   // JUPITER
   #jupiter span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -273,7 +258,7 @@ html {
     /* Position the tooltip text */
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    bottom: 112%;
     left: 50%;
     margin-left: -60px;
 
@@ -289,6 +274,7 @@ html {
 
   // SASTURN
   #saturn span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -316,6 +302,7 @@ html {
 
   // URANUS
   #uranus span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -343,6 +330,7 @@ html {
 
   // NEPTUNE
   #neptune span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -371,6 +359,7 @@ html {
   // SUN
 
   #sun span {
+    font-family: "Death Star";
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -378,6 +367,13 @@ html {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    left: 110%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
 
     /* Position the tooltip text */
     position: absolute;
@@ -400,14 +396,16 @@ html {
 // MERCURY
   #mercury #text_mercury {
     position: absolute;
-    width: 200px;
-    top: 15vh;
-    left: -5vw;
+    width: 308px;
+    top: 270%;
+    left: -250%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Open Sans' ,sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
+  
   #mercury:hover #text_mercury {
     visibility: visible;
   }
@@ -415,13 +413,14 @@ html {
   // VENUS
   #venus #text_venus {
     position: absolute;
-    width: 250px;
-    top: 10vh;
-    left: -6vw;
+    width: 364px;
+    top: 123%;
+    left: -240%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open sans", sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
   #venus:hover #text_venus {
     visibility: visible;
@@ -430,13 +429,14 @@ html {
   // EARTH 
   #earth #text_earth {
     position: absolute;
-    width: 250px;
-    top: 22vh;
-    left: -6vw;
+    width: 350px;
+    top: 282%;
+    left: -240%;
     text-align: center;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8pt;
   }
   #earth:hover #text_earth {
     visibility: visible;
@@ -445,13 +445,14 @@ html {
   // MARS
   #mars #text_mars {
     position: absolute;
-    width: 250px;
-    top: 8vh;
-    left: -6vw;
+    width: 300px;
+    top: 130%;
+    left: -315%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
   #mars:hover #text_mars {
     visibility: visible;
@@ -460,12 +461,13 @@ html {
   // JUPITER
   #jupiter #text_jupiter {
     position: absolute;
-    width: 250px;
-    top: 26vh;
-    left: -3vw;
+    width: 290px;
+    top: 107%;
+    left: -45%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8pt;
     text-align: center;
   }
   #jupiter:hover #text_jupiter {
@@ -475,13 +477,14 @@ html {
   // SATURN
   #saturn #text_saturn {
     position: absolute;
-    width: 250px;
-    top: 24vh;
-    left: -4vw;
+    width: 350px;
+    top: 210%;
+    left: -95%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
   #saturn:hover #text_saturn {
     visibility: visible;
@@ -491,12 +494,13 @@ html {
   #uranus #text_uranus {
     position: absolute;
     width: 250px;
-    top: 11vh;
-    left: -6vw;
+    top: 125%;
+    left: -145%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
   #uranus:hover #text_uranus {
     visibility: visible;
@@ -505,13 +509,14 @@ html {
   // NEPTUNE  
   #neptune #text_neptune {
     position: absolute;
-    width: 250px;
-    top: 20vh;
-    left: -9vw;
+    width: 350px;
+    top: 200%;
+    left: -340%;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-size: 8pt;
   }
   #neptune:hover #text_neptune {
     visibility: visible;
@@ -519,24 +524,71 @@ html {
   // SUN
   #sun #text_sun {
     position: absolute;
-    width: 250px;
+    width: 400px;
     top: 47vh;
     left: 51vw;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8pt;
   }
   #sun:hover #text_sun {
     visibility: visible;
   }
-  // ------------------------------------------------------------------->HEADER
+  // ----------------------------------------------------------------->HEADER
 
   h1 { 
     position: relative;
     font-size: 3.0em;
     color: white;
     top: auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Death Star";
     font-weight: 200;
     margin: 2.0em 0em -3.0em 12em;
+  }
+
+  // --------------------------------------------------------------->LOADING SCREEN
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to {transform: rotate(360deg); }
+  }
+  @keyframes spin1 {
+    from { transform: rotate(360deg); }
+    to {transform: rotate(0deg); }
+  }
+  #loading {
+    position: relative;
+    margin: auto;
+    width: 80%;
+  }
+  #logo{ 
+    height: 100px;
+    position: absolute;
+    top: 290px;
+    left: 569px;
+  }
+  #stars_loading{
+    height: 200px;
+    position: absolute;
+    top:240px;
+    left:520px;
+    animation: spin 13s linear infinite;
+  }
+  #plane{
+    height: 300px;
+    position: absolute;
+    top:190px;
+    left:470px;
+    animation: spin 5s linear infinite;
+  }
+  #plane2{
+    height: 400px;
+    position: absolute;
+    top:150px;
+    left:420px;
+    animation: spin1 4s linear infinite;
+  }
+  #content {
+    display: none;
   }
