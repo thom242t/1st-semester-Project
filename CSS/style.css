@@ -479,8 +479,8 @@ h1 {
   top: auto;
   font-family: "Death Star";
   font-weight: 200;
-  margin: 1em 0em em 0em;
-  left: 36%; }
+  left: 36%;
+  margin-top: 1em; }
 
 @keyframes spin {
   from {
