@@ -82,7 +82,7 @@ html {
   position: absolute;
   width: 2.6%;
   top: 37%;
-  left: 37%; }
+  left: 36%; }
 
 #jupiter {
   position: absolute;
@@ -375,7 +375,7 @@ html {
   position: absolute;
   width: 620%;
   top: 70%;
-  left: -279%;
+  left: -274%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -499,30 +499,30 @@ h1 {
   width: 80%; }
 
 #logo {
-  height: 100px;
-  position: absolute;
+  width: 8.2%;
+  position: relative;
   top: 290px;
   left: 569px; }
 
 #stars_loading {
-  height: 200px;
+  width: 16%;
   position: absolute;
-  top: 240px;
-  left: 520px;
+  top: 235%;
+  left: 43%;
   animation: spin 13s linear infinite; }
 
 #plane {
-  height: 300px;
+  width: 25%;
   position: absolute;
-  top: 190px;
-  left: 470px;
+  top: 182%;
+  left: 38.5%;
   animation: spin 5s linear infinite; }
 
 #plane2 {
-  height: 400px;
+  width: 35%;
   position: absolute;
-  top: 150px;
-  left: 420px;
+  top: 130%;
+  left: 33.5%;
   animation: spin1 4s linear infinite; }
 
 #content {
@@ -531,8 +531,8 @@ h1 {
 #tom {
   position: absolute;
   width: 6.5%;
-  top: -5%;
-  right: 0%;
+  top: -6%;
+  right: -1%;
   transition: transform .9s;
   transform: rotate(220deg); }
 
@@ -589,5 +589,66 @@ h1 {
   top: 6%;
   left: 3%;
   opacity: 0.6; }
+
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-repeat: no-repeat; }
+
+  #saturn #text_saturn {
+    position: absolute;
+    width: 270%;
+    top: 90%;
+    left: -90%;
+    visibility: hidden;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 0.7vw;
+    opacity: 0;
+    transition: opacity 1s; }
+
+  #earth #text_earth {
+    position: absolute;
+    width: 370%;
+    top: 96%;
+    left: -135%;
+    text-align: center;
+    visibility: hidden;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.7vw;
+    opacity: 0;
+    transition: opacity 1s; }
+
+  #sun {
+    position: absolute;
+    width: 34%;
+    bottom: 46%;
+    right: 91%; }
+
+  #tom {
+    position: absolute;
+    width: 6.5%;
+    top: -2%;
+    right: -1%;
+    transition: transform .9s;
+    transform: rotate(220deg); }
+
+  #web_logo {
+    position: absolute;
+    width: 8%;
+    top: 3%;
+    left: 7%;
+    opacity: 0.6; }
+
+  h1 {
+    position: relative;
+    font-size: 3vw;
+    color: white;
+    top: auto;
+    font-family: "Death Star";
+    font-weight: 200;
+    left: 36%;
+    margin-top: 2em; } }
 
 /*# sourceMappingURL=style.css.map */
