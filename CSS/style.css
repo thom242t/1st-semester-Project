@@ -62,73 +62,73 @@ html {
 
 #mercury {
   position: absolute;
-  width: 50px;
+  width: 3.2%;
   top: 60%;
   left: 15%; }
 
 #venus {
   position: absolute;
-  width: 60px;
+  width: 4%;
   top: 18%;
   left: 19%; }
 
 #earth {
   position: absolute;
-  width: 64px;
+  width: 4.2%;
   top: 70%;
   left: 31%; }
 
 #mars {
   position: absolute;
-  width: 40px;
+  width: 2.6%;
   top: 37%;
   left: 37%; }
 
 #jupiter {
   position: absolute;
-  width: 150px;
+  width: 10%;
   top: 39%;
   left: 50%; }
 
 #saturn {
   position: absolute;
-  width: 120px;
+  width: 7.5%;
   top: 67%;
   left: 68%; }
 
 #uranus {
   position: absolute;
-  width: 60px;
-  top: 13%;
-  left: 76%; }
+  width: 4.2%;
+  bottom: 75%;
+  right: 26%; }
 
 #neptune {
   position: absolute;
-  width: 68px;
+  width: 4.5%;
   top: 47%;
   left: 84%; }
 
 #sun {
   position: absolute;
-  width: 500px;
-  top: 15%;
-  left: -24%; }
+  width: 34%;
+  bottom: 13%;
+  right: 91%; }
 
 #mercury span {
   visibility: hidden;
-  width: 120px;
+  width: 245%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10% 0;
   border-radius: 6px;
   font-family: "Death Star";
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
+  left: -70%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -140,18 +140,18 @@ html {
 #venus span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 245%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
+  left: -80%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -163,18 +163,18 @@ html {
 #earth span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 210%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 9% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
+  left: -55%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -186,18 +186,19 @@ html {
 #mars span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 245%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 14% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -122%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -209,18 +210,17 @@ html {
 #jupiter span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 100%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 5% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 112%;
-  left: 50%;
-  margin-left: -60px;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -232,18 +232,17 @@ html {
 #saturn span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 100%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 7% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -255,18 +254,19 @@ html {
 #uranus span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 245%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -122%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -278,18 +278,19 @@ html {
 #neptune span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 245%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10% 0;
   border-radius: 6px;
+  font-size: 1vw;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -122%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s; }
@@ -301,19 +302,19 @@ html {
 #sun span {
   font-family: "Death Star";
   visibility: hidden;
-  width: 120px;
+  width: 30%;
   background-color: #555;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 1.5% 0;
   border-radius: 6px;
   position: absolute;
   z-index: 1;
   bottom: 24%;
-  left: 106%;
-  margin-left: -60px;
+  left: 90%;
   opacity: 0;
-  transition: opacity 0.3s; }
+  transition: opacity 0.3s;
+  font-size: 1vw; }
 
 #sun:hover span {
   visibility: visible;
@@ -321,14 +322,14 @@ html {
 
 #mercury #text_mercury {
   position: absolute;
-  width: 250px;
+  width: 510%;
   top: 97%;
   left: -200%;
   visibility: hidden;
   color: #ffffff;
   font-family: 'Open Sans' ,sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -338,14 +339,14 @@ html {
 
 #venus #text_venus {
   position: absolute;
-  width: 250px;
+  width: 410%;
   top: 90%;
   left: -155%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open sans", sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -355,14 +356,14 @@ html {
 
 #earth #text_earth {
   position: absolute;
-  width: 500px;
+  width: 775%;
   top: 95%;
   left: -335%;
   text-align: center;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -372,14 +373,14 @@ html {
 
 #mars #text_mars {
   position: absolute;
-  width: 250px;
+  width: 620%;
   top: 70%;
   left: -279%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -389,13 +390,13 @@ html {
 
 #jupiter #text_jupiter {
   position: absolute;
-  width: 250px;
+  width: 165%;
   top: 100%;
   left: -36%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-size: 8pt;
+  font-size: 0.7vw;
   text-align: center;
   opacity: 0;
   transition: opacity 1s; }
@@ -406,14 +407,14 @@ html {
 
 #saturn #text_saturn {
   position: absolute;
-  width: 550px;
-  top: 72px;
+  width: 480%;
+  top: 90%;
   left: -180%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -423,14 +424,14 @@ html {
 
 #uranus #text_uranus {
   position: absolute;
-  width: 250px;
+  width: 410%;
   top: 90%;
   left: -145%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -440,14 +441,14 @@ html {
 
 #neptune #text_neptune {
   position: absolute;
-  width: 220px;
+  width: 320%;
   top: 100%;
   left: -105%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.7vw;
   opacity: 0;
   transition: opacity 1s; }
 
@@ -457,13 +458,13 @@ html {
 
 #sun #text_sun {
   position: absolute;
-  width: 600px;
+  width: 120%;
   top: 80%;
   left: 87%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-size: 8pt;
+  font-size: 0.7vw;
   text-align: center;
   opacity: 0;
   transition: opacity 1s; }
@@ -474,7 +475,7 @@ html {
 
 h1 {
   position: relative;
-  font-size: 3.0em;
+  font-size: 3vw;
   color: white;
   top: auto;
   font-family: "Death Star";
@@ -526,5 +527,67 @@ h1 {
 
 #content {
   display: none; }
+
+#tom {
+  position: absolute;
+  width: 6.5%;
+  top: -5%;
+  right: 0%;
+  transition: transform .9s;
+  transform: rotate(220deg); }
+
+#tom:hover {
+  -ms-transform: scale(1.5) rotate(220deg);
+  /* IE 9 */
+  -webkit-transform: scale(1.5) rotate(220deg);
+  /* Safari 3-8 */
+  transform: scale(1.5) rotate(220deg); }
+
+#tom span {
+  font-family: "Death Star";
+  visibility: hidden;
+  width: 135%;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 7% 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: -50%;
+  transform: rotate(140deg);
+  opacity: 0;
+  font-size: 1vw;
+  transition: opacity 0.3s; }
+
+#tom:hover span {
+  visibility: visible;
+  opacity: 1; }
+
+#tom #text_tom {
+  position: absolute;
+  width: 215%;
+  bottom: 165%;
+  right: -136%;
+  visibility: hidden;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 0.7vw;
+  opacity: 0;
+  transform: rotate(140deg);
+  transition: opacity 1s; }
+
+#tom:hover #text_tom {
+  visibility: visible;
+  opacity: 1; }
+
+#web_logo {
+  position: absolute;
+  width: 6%;
+  top: 6%;
+  left: 3%;
+  opacity: 0.6; }
 
 /*# sourceMappingURL=style.css.map */
