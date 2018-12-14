@@ -1,16 +1,14 @@
-body {
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 @keyframes animStar {
   from {
     transform: translateY(0px); }
   to {
     transform: translateY(-2000px); } }
 html {
-  height: 100%;
+  height: -webkit-fill-available;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  overflow: hidden; }
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #stars {
   width: 1px;
@@ -63,56 +61,56 @@ html {
 #mercury {
   position: absolute;
   width: 3.2%;
-  top: 60%;
-  left: 15%; }
+  top: 56%;
+  left: 19%; }
 
 #venus {
   position: absolute;
   width: 4%;
   top: 18%;
-  left: 19%; }
+  left: 26%; }
 
 #earth {
   position: absolute;
   width: 4.2%;
   top: 70%;
-  left: 31%; }
+  left: 35%; }
 
 #mars {
   position: absolute;
   width: 2.6%;
   top: 37%;
-  left: 36%; }
+  left: 41%; }
 
 #jupiter {
   position: absolute;
   width: 10%;
   top: 39%;
-  left: 50%; }
+  left: 54%; }
 
 #saturn {
   position: absolute;
   width: 7.5%;
-  top: 67%;
+  top: 58%;
   left: 68%; }
 
 #uranus {
   position: absolute;
   width: 4.2%;
   bottom: 75%;
-  right: 26%; }
+  right: 17%; }
 
 #neptune {
   position: absolute;
   width: 4.5%;
   top: 47%;
-  left: 84%; }
+  left: 86%; }
 
 #sun {
   position: absolute;
   width: 34%;
   bottom: 13%;
-  right: 91%; }
+  right: 86%; }
 
 #mercury span {
   visibility: hidden;
@@ -390,9 +388,9 @@ html {
 
 #jupiter #text_jupiter {
   position: absolute;
-  width: 165%;
+  width: 117%;
   top: 100%;
-  left: -36%;
+  left: -8%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -407,9 +405,9 @@ html {
 
 #saturn #text_saturn {
   position: absolute;
-  width: 480%;
+  width: 305%;
   top: 90%;
-  left: -180%;
+  left: -98%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -424,9 +422,9 @@ html {
 
 #uranus #text_uranus {
   position: absolute;
-  width: 410%;
+  width: 552%;
   top: 90%;
-  left: -145%;
+  left: -225%;
   visibility: hidden;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -493,11 +491,6 @@ h1 {
     transform: rotate(360deg); }
   to {
     transform: rotate(0deg); } }
-#loading {
-  position: relative;
-  margin: auto;
-  width: 80%; }
-
 #logo {
   width: 8.2%;
   position: relative;
