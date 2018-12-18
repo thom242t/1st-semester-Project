@@ -493,29 +493,29 @@ h1 {
     transform: rotate(0deg); } }
 #logo {
   width: 8.2%;
-  position: relative;
-  top: 290px;
-  left: 569px; }
+  position: absolute;
+  top: 40vh;
+  left: 45.9vw; }
 
 #stars_loading {
   width: 16%;
   position: absolute;
-  top: 235%;
-  left: 43%;
+  top: 32vh;
+  left: 42vw;
   animation: spin 13s linear infinite; }
 
 #plane {
   width: 25%;
   position: absolute;
-  top: 182%;
-  left: 38.5%;
+  top: 22vh;
+  left: 37.5vw;
   animation: spin 5s linear infinite; }
 
 #plane2 {
   width: 35%;
   position: absolute;
-  top: 130%;
-  left: 33.5%;
+  top: 11vh;
+  left: 32vw;
   animation: spin1 4s linear infinite; }
 
 #content {

@@ -75,6 +75,6 @@ function show(id, value) {
 }
 
 onReady(function () {
-  show('content', false);
-  show('loading', true);
+  show('content', true);
+  show('loading', false);
 });
